@@ -1,0 +1,17 @@
+//
+//  HomeGuardTVApp.swift
+//  HomeGuardTV
+//
+//  Created by Kavindu Dilshan on 2025-11-16.
+//
+
+import SwiftUI
+
+@main
+struct HomeGuardTVApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
