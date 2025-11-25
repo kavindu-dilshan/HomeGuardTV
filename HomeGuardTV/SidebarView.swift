@@ -24,7 +24,7 @@ struct SidebarView: View {
         VStack(alignment: .leading, spacing: 0) {
             Text("HomeGuard")
                 .font(.title3)
-                .fontWeight(.semibold)
+                .fontWeight(.bold)
                 .foregroundColor(Color.green)
                 .lineLimit(1)
                 .minimumScaleFactor(0.9)

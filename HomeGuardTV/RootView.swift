@@ -23,7 +23,7 @@ struct RootView: View {
                     startPoint: .top, endPoint: .bottom
                 )
                 contentView
-                    .padding(.top, 40)
+                    .padding(.top, 20)
                     .padding(.trailing, 40)
                     .padding(.bottom, 40)
                     .padding(.leading, 32)
