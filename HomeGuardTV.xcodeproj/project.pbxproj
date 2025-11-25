@@ -11,6 +11,12 @@
 		2938F5022ECA43DB00FD30D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938F5012ECA43DB00FD30D8 /* ContentView.swift */; };
 		2938F5042ECA43DC00FD30D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2938F5032ECA43DC00FD30D8 /* Assets.xcassets */; };
 		2938F5072ECA43DC00FD30D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2938F5062ECA43DC00FD30D8 /* Preview Assets.xcassets */; };
+		29668C012ED593E100D1978B /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29668BFB2ED593E100D1978B /* AlertsView.swift */; };
+		29668C022ED593E100D1978B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29668BFC2ED593E100D1978B /* DashboardView.swift */; };
+		29668C032ED593E100D1978B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29668BFD2ED593E100D1978B /* RootView.swift */; };
+		29668C042ED593E100D1978B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29668BFE2ED593E100D1978B /* SettingsView.swift */; };
+		29668C052ED593E100D1978B /* CamerasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29668BFF2ED593E100D1978B /* CamerasView.swift */; };
+		29668C062ED593E100D1978B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29668C002ED593E100D1978B /* SidebarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		2938F5032ECA43DC00FD30D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2938F5062ECA43DC00FD30D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2938F5082ECA43DC00FD30D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29668BFB2ED593E100D1978B /* AlertsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		29668BFC2ED593E100D1978B /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		29668BFD2ED593E100D1978B /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		29668BFE2ED593E100D1978B /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		29668BFF2ED593E100D1978B /* CamerasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamerasView.swift; sourceTree = "<group>"; };
+		29668C002ED593E100D1978B /* SidebarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				2938F4FF2ECA43DB00FD30D8 /* HomeGuardTVApp.swift */,
+				29668BFB2ED593E100D1978B /* AlertsView.swift */,
+				29668BFF2ED593E100D1978B /* CamerasView.swift */,
+				29668BFC2ED593E100D1978B /* DashboardView.swift */,
+				29668BFD2ED593E100D1978B /* RootView.swift */,
+				29668BFE2ED593E100D1978B /* SettingsView.swift */,
+				29668C002ED593E100D1978B /* SidebarView.swift */,
 				2938F5012ECA43DB00FD30D8 /* ContentView.swift */,
 				2938F5032ECA43DC00FD30D8 /* Assets.xcassets */,
 				2938F5082ECA43DC00FD30D8 /* Info.plist */,
@@ -139,7 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2938F5022ECA43DB00FD30D8 /* ContentView.swift in Sources */,
+				29668C062ED593E100D1978B /* SidebarView.swift in Sources */,
+				29668C022ED593E100D1978B /* DashboardView.swift in Sources */,
 				2938F5002ECA43DB00FD30D8 /* HomeGuardTVApp.swift in Sources */,
+				29668C042ED593E100D1978B /* SettingsView.swift in Sources */,
+				29668C012ED593E100D1978B /* AlertsView.swift in Sources */,
+				29668C052ED593E100D1978B /* CamerasView.swift in Sources */,
+				29668C032ED593E100D1978B /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
